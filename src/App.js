@@ -14,7 +14,7 @@ const TopMenu = () => {
   return (
     <div className="header">
       <div className="container">
-        <Link to="/">Weather</Link> |{" "}
+        <Link to="/React-TodoList-Weather-Resturant">Weather</Link> |{" "}
         <Link to="/todo">TodoList</Link> |{" "}
         <Link to="/resturant">Resturant</Link> |{" "}
         <Link to="/usestate">UseState</Link> |{" "}
