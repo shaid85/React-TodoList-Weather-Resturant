@@ -1,6 +1,6 @@
 import {
   BrowserRouter as Router,
-  Routes,Route,Link
+  Routes,Route,Link,Redirect
 } from "react-router-dom";
 
 import Resturant from './components/Resturant'
@@ -35,13 +35,13 @@ const App = () => {
           <TopMenu />
         <div className="container">
           <Routes>      
-            <Route path="/" element={<Weather />} />
-            <Route path="todo" element={<TodoList />} />
-            <Route path="resturant" element={<Resturant />} />
-            <Route path="usestate" element={<UseState />} />
-            <Route path="UseEffect" element={<UseEffect />} />
-            <Route path="usereducer" element={<UseReducer />} />
-            <Route path="*" element={<Notfound />} />
+            <Route exact  path="/" element={<Weather />} />
+            <Route exact path="todo" element={<TodoList />} />
+            <Route exact path="resturant" element={<Resturant />} />
+            <Route exact path="usestate" element={<UseState />} />
+            <Route exact path="UseEffect" element={<UseEffect />} />
+            <Route exact path="usereducer" element={<UseReducer />} />
+            <Route exact path="*" element={<Notfound />} />
           </Routes>
         </div>
   </Router>
