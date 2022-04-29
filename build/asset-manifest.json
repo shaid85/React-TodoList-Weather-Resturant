@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/React-TodoList-Weather-Resturant/static/css/main.c52ff991.css",
-    "main.js": "/React-TodoList-Weather-Resturant/static/js/main.cb73e8fe.js",
-    "index.html": "/React-TodoList-Weather-Resturant/index.html",
-    "main.c52ff991.css.map": "/React-TodoList-Weather-Resturant/static/css/main.c52ff991.css.map",
-    "main.cb73e8fe.js.map": "/React-TodoList-Weather-Resturant/static/js/main.cb73e8fe.js.map"
+    "main.css": "/static/css/main.c52ff991.css",
+    "main.js": "/static/js/main.cb73e8fe.js",
+    "index.html": "/index.html",
+    "main.c52ff991.css.map": "/static/css/main.c52ff991.css.map",
+    "main.cb73e8fe.js.map": "/static/js/main.cb73e8fe.js.map"
   },
   "entrypoints": [
     "static/css/main.c52ff991.css",
