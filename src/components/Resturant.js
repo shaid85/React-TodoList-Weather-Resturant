@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import "./style.css"
 import MenuCard from './MenuCard'
 import Menu from './MenuApi.js'
 import Navbar from './Navbar'

@@ -1,12 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 body {
-  display: flex;
-  justify-content: center;
+  /* display: flex; */
+  /* justify-content: center; */
   align-items: center;
 
   background: #060505;
 }
-.center_div{ height: 100vh;}
+.center_div {
+	height: 100vh;
+	text-align: center;
+}
 
 .button {
   border: 2px solid #d2bdff;

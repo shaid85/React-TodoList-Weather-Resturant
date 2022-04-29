@@ -14,12 +14,14 @@ import "./App.css"
 const TopMenu = () => {
   return (
     <div className="header">
+      <div className="container">
         <Link to="/">Weather</Link> |{" "}
         <Link to="/todo">TodoList</Link> |{" "}
         <Link to="/resturant">Resturant</Link> |{" "}
         <Link to="/usestate">UseState</Link> |{" "}
         <Link to="/UseEffect">UseEffect</Link> |{" "}
         <Link to="/usereducer">UseReducer</Link>
+      </div>  
     </div>
   ) 
 }
@@ -29,15 +31,16 @@ const App = () => {
     <>
       <Router>
           <TopMenu />
-
-        <Routes>
-          <Route path="/" element={<Weather />} />
-          <Route path="todo" element={<TodoList />} />
-          <Route path="resturant" element={<Resturant />} />
-          <Route path="usestate" element={<UseState />} />
-          <Route path="UseEffect" element={<UseEffect />} />
-          <Route path="usereducer" element={<UseReducer />} />
-        </Routes>
+        <div className="container">
+          <Routes>      
+            <Route path="/" element={<Weather />} />
+            <Route path="todo" element={<TodoList />} />
+            <Route path="resturant" element={<Resturant />} />
+            <Route path="usestate" element={<UseState />} />
+            <Route path="UseEffect" element={<UseEffect />} />
+            <Route path="usereducer" element={<UseReducer />} />
+          </Routes>
+        </div>
   </Router>
       {/* <Resturant /> */}
       {/* <UseState /> */}
