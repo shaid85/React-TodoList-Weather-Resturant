@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css);
+
+body {
+	background: #222;
+    /* font-family: "Poiret One"; */
+}
+.sec_temp {
+	max-width: 700px;
+	margin: 0 auto;
+	background: #f0f0f0;
+}
+.iconbox .wi {
+	font-size: 60px;
+}
+.tempbox {
+	background: #000;
+	color: #fff;
+}
+.temp {
+	font-size: 60px;
+	padding-right: 20px;
+}
+.description {
+	font-size: 35px;
+	padding: 0 20px;
+}
+.description span {
+	display: block;
+	font-size: 16px;
+	clear: both;
+}
+.date {
+	background: #5b5bcc;
+	height: 100%;
+	font-size: 25px;
+}
+.widget i {
+	padding: 5px 8px;
+	font-size: 20px;
+	color: #1580aa;
+}
+.widget p {
+	font-size: 15px;
+	line-height: 1;
+	margin: 0;
+}
+.widget p span {
+	display: block;
+}

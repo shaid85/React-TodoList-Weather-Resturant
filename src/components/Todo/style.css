@@ -1,0 +1,7 @@
+.listbox i {
+	right: 30px;
+	position: absolute;
+}
+.listbox i.fa-trash-alt {
+	right: 10px;
+}
