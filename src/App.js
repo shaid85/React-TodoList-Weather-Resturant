@@ -30,6 +30,7 @@ const TopMenu = () => {
 const App = () => {
   return (
     <>
+      <h1>Welcome my app</h1>
       <Router>
           <TopMenu />
         <div className="container">
