@@ -1,6 +1,5 @@
 import {
-  BrowserRouter as Router,
-  Routes,Route,Link, Navigate
+  BrowserRouter as Router,Routes,Route,Link
 } from "react-router-dom";
 
 import Resturant from './components/Resturant'
@@ -9,7 +8,6 @@ import UseEffect from './components/Hooks/UseEffect'
 import UseReducer from './components/Hooks/useReducer'
 import TodoList from './components/Todo/todo'
 import Weather from './components/weather/Weather'
-import Notfound from './components/Notfound'
 import "./App.css"
 
 const TopMenu = () => {
@@ -35,14 +33,13 @@ const App = () => {
           <TopMenu />
         <div className="container">
           <Routes>      
-            <Route exact  path="/" element={<Weather />} />
+            <Route exact  path="/React-TodoList-Weather-Resturant" element={<Weather />} />
             <Route exact path="todo" element={<TodoList />} />
             <Route exact path="resturant" element={<Resturant />} />
             <Route exact path="usestate" element={<UseState />} />
             <Route exact path="UseEffect" element={<UseEffect />} />
             <Route exact path="usereducer" element={<UseReducer />} />
-            <Route exact path="*" element={<Navigate to="/" replace />} />
-            <Navigate to="/" replace />
+            {/* <Navigate to="/" replace /> */}
           </Routes>
         </div>
   </Router>
