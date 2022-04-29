@@ -9,6 +9,7 @@ import UseEffect from './components/Hooks/UseEffect'
 import UseReducer from './components/Hooks/useReducer'
 import TodoList from './components/Todo/todo'
 import Weather from './components/weather/Weather'
+import Notfound from './components/Notfound'
 import "./App.css"
 
 const TopMenu = () => {
@@ -39,6 +40,7 @@ const App = () => {
             <Route path="usestate" element={<UseState />} />
             <Route path="UseEffect" element={<UseEffect />} />
             <Route path="usereducer" element={<UseReducer />} />
+            <Route path="*" element={<Notfound />} />
           </Routes>
         </div>
   </Router>
