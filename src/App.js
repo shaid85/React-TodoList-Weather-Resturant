@@ -1,6 +1,6 @@
 import {
   BrowserRouter as Router,
-  Routes,Route,Link,Redirect
+  Routes,Route,Link, Navigate
 } from "react-router-dom";
 
 import Resturant from './components/Resturant'
@@ -41,7 +41,8 @@ const App = () => {
             <Route exact path="usestate" element={<UseState />} />
             <Route exact path="UseEffect" element={<UseEffect />} />
             <Route exact path="usereducer" element={<UseReducer />} />
-            <Route exact path="*" element={<Notfound />} />
+            <Route exact path="*" element={<Navigate to="/" replace />} />
+            <Navigate to="/" replace />
           </Routes>
         </div>
   </Router>
